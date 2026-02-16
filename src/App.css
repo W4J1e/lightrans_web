@@ -215,6 +215,7 @@ body {
   word-break: break-word;
   background-color: white;
   margin: 0;
+  overflow-y: auto;
 }
 
 /* 操作按钮区域 */
