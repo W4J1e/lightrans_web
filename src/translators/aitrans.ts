@@ -16,16 +16,16 @@ class AITranslator {
    * Available translation models.
    */
   private availableModels: string[] = [
-    'Qwen/Qwen3-8B',
+    'Qwen/Qwen3.5-4B',
     'tencent/Hunyuan-MT-7B',
     'THUDM/glm-4-9b-chat',
-    'Qwen/Qwen2.5-7B-Instruct'
+    'Qwen/Qwen3-8B'
   ];
   
   /**
    * Current model to use.
    */
-  private currentModel: string = 'Qwen/Qwen3-8B';
+  private currentModel: string = 'Qwen/Qwen3.5-4B';
 
   /**
    * Detect language of given text.
