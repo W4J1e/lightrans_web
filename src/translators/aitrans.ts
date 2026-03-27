@@ -18,7 +18,6 @@ class AITranslator {
   private availableModels: string[] = [
     'Qwen/Qwen3.5-4B',
     'tencent/Hunyuan-MT-7B',
-    'THUDM/glm-4-9b-chat',
     'Qwen/Qwen3-8B'
   ];
   
